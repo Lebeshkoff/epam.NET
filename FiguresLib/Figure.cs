@@ -15,11 +15,11 @@ namespace FiguresLib
         /// Shape perimeter
         /// </summary>
         /// <returns>Shape perimeter</returns>
-        public abstract double CalcP();
+        public abstract double CalcPerimetr();
         /// <summary>
         /// Figure area
         /// </summary>
         /// <returns>Figure area</returns>
-        public abstract double CalcS();
+        public abstract double CalcSquare();
     }
 }
