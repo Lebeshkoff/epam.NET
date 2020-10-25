@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresLib", "FiguresLib\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointLib", "PointLib\PointLib.csproj", "{17024B31-3366-46DE-86FD-F03A17A895DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5BBA5CD6-F82A-4929-9F45-24F07042A69D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{17024B31-3366-46DE-86FD-F03A17A895DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17024B31-3366-46DE-86FD-F03A17A895DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17024B31-3366-46DE-86FD-F03A17A895DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBA5CD6-F82A-4929-9F45-24F07042A69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBA5CD6-F82A-4929-9F45-24F07042A69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBA5CD6-F82A-4929-9F45-24F07042A69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBA5CD6-F82A-4929-9F45-24F07042A69D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
