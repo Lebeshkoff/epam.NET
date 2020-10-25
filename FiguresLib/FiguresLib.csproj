@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Circle.cs" />
     <Compile Include="Figure.cs" />
+    <Compile Include="FiguresController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Squad.cs" />
     <Compile Include="Triangle.cs" />
