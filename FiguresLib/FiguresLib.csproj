@@ -45,6 +45,7 @@
     <Compile Include="Figure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Squad.cs" />
+    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PointLib\PointLib.csproj">
