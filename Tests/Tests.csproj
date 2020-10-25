@@ -64,6 +64,10 @@
       <Project>{17024b31-3366-46de-86fd-f03a17a895de}</Project>
       <Name>PointLib</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TxtReader\TxtReader.csproj">
+      <Project>{a18ae01c-3de5-42c7-9b7e-832c63263cf5}</Project>
+      <Name>TxtReader</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -2,6 +2,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PointLib;
 using FiguresLib;
+using TxtReader;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Tests
 {
@@ -9,6 +12,24 @@ namespace Tests
     public class FiguresTests
     {
         Random random = new Random();
+        [TestMethod]
+        public void TestTxtReader()
+        {
+            FigureReader figureReader = new FigureReader("figures.txt");
+            List<Figure> figures = new List<Figure>();
+            figures.Add(new Squad(2));
+            figures.Add(new Triangle(new Point2D(1, 1.3), new Point2D(2, 2.6), new Point2D(4, 3)));
+            figures.Add(new Circle(3));
+            figures.Add(new Squad(new Point2D(1, 3), new Point2D(6, 8)));
+            figures.Add(new Triangle(5, 4, 3));
+            figures.Add(new Circle(new Point2D(3, 6), new Point2D(9, 9.7)));
+            int i = 0;
+            foreach (var item in figures)
+            {
+                Assert.AreEqual(item, figureReader.figures.ElementAt(i));
+                i++;
+            }
+        }
         [TestMethod]
         public void TestSquadSquare()
         {
